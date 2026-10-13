@@ -1,0 +1,51 @@
+print("1. Search for an Element ---")
+
+numbers = [10, 20, 30, 40, 50]
+target = 30
+
+for i in range(len(numbers)):
+    if numbers[i] == target:
+        print("Element found at index:", i)
+        break
+
+# 2. FIND THE LARGEST NUMBER
+
+print("\n- 2. Find the Largest Number ---")
+
+numbers = [12, 45, 7, 89, 23]
+largest = numbers[0]
+
+for i in range(len(numbers)):
+    if numbers[i] > largest:
+        largest = numbers[i]
+
+print("Largest number:", largest)
+
+
+# 3. FIND THE INDEX  TARGET
+
+print("\n-3. Find All Occurrences -")
+
+numbers = [10, 20, 10, 30, 10, 40]
+target = 10
+
+for i in range(len(numbers)):
+    if numbers[i] == target:
+        print("Found at index:", i)
+
+
+# 4. COUNT OCCURRENCES OF TARGET
+
+print("\n--- 4. Count Occurrences ---")
+
+numbers = [10, 20, 10, 30, 10, 40]
+target = 10
+count = 0
+
+for i in range(len(numbers)):
+    if numbers[i] == target:
+        count += 1
+
+print("Number of occurrences:", count)
+
+"""
