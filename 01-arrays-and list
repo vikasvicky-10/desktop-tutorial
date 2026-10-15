@@ -1,4 +1,4 @@
-print("1. Search for an Element ---")
+'''print("1. Search for an Element ---")
 
 numbers = [10, 20, 30, 40, 50]
 target = 30
@@ -46,6 +46,4 @@ for i in range(len(numbers)):
     if numbers[i] == target:
         count += 1
 
-print("Number of occurrences:", count)
-
-"""
+print("Number of occurrences:", count)'''
