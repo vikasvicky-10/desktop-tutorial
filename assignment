@@ -1,0 +1,29 @@
+# -------STUDENT DATA ----------
+print("STUDENT DATA\n")
+name=input("enter your name :")
+usn=input("enter your usn no:")
+branch=input("enter branch :")
+subjects=["subject1",
+          "subject2",
+          "subject3",
+          "subject4"]
+marks=[]
+for subject in subjects:
+    mark=float(input(f"enter marks for {subject}:"))
+    marks.append(mark)
+
+print("STUDENT DETAILS\n")
+print("name:",name)
+print("usn:",usn)
+print("branch:",branch)
+total=sum(marks)
+percentage=total/4
+print("total marks:",total)
+print("total percentage:",percentage)
+if all(mark>=40 for mark in marks):
+    print("you are pass")
+else:
+    print("you are fail")
+
+
+
