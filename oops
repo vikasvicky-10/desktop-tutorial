@@ -1,0 +1,10 @@
+class movi:
+    def __init__(self,movi="unknown",rating=0):
+        self.movi= movi
+        self.rating= rating 
+    def display(self):
+        print("movi:",self.movi)    
+        print("rating:",self.rating)
+m=movi("intersteller",9.0) 
+m.display()      
+
